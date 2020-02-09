@@ -1,0 +1,60 @@
+OBJ: 
+This program will allow the user to play hangman against the computer using a list of words from a txt file.
+-A fuctions that randomly selects a word from the text dictionary
+-A function that takes input from the user that will be each letter guessed
+-A fuction that will take the letters guessed correctly and turn them into a string
+-We need to create the various variables to store the users inputted data
+        -We need a variable for the word the computer picks
+        -We need a set fo data that holds the letters guess wrong and the letters guessed right
+-We need to display an intro to the program
+-We need to build a repeatitive system, so the user can keep guessing letters
+-If the player guesses wrong, a new part of the body will appear, until they lose
+-We need to display an outro for the program
+PSEUDOCODE:
+
+ded pick_random_word():
+    
+    # open the words dictionary
+    
+    # penerate a random index
+    
+    # print out the word at that index
+def ask_user_for_next_letter():
+    #this function gets a letter guess from th user
+    
+def generate_word_string(word_letters_guessed)
+    # this fuction generates the word display that shows which letters the user has guessed correctly
+    
+    output = []
+    for letter in wor:
+    if letter is guessed, add it to output
+    else, add a _
+    
+    ruturn the output as a string
+    #check that the module we are using is currently the main module
+    
+    if ___name___ == '__main__' :
+        WORD = pick_random_word():
+
+        letters_to_guess =       
+set (WORD)
+    correct_letters_guessed 
+= set() 
+    incorrect_letters_guessed
+= set()
+    num_guesses = 0
+    
+    #welcome
+    
+    #loop repeats the guessing sequences until user guesses all letters or runs out of guessses
+    
+ask_user_for_next_letter()
+    #check if user already guessed that letter
+    
+    #check if guess was correct
+    
+    #print how much of the word is guessed and how many letters are left
+    
+    #tell the user they have won or lost
+    
+                 
